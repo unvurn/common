@@ -1,0 +1,26 @@
+{
+    "name": "unvurn/common",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Unvurn\\Common\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Unvurn\\Common\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hironobu koura",
+            "email": "hironobu@unvurn.cc"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^11.2",
+        "orchestra/testbench": "^9.2"
+    }
+}
